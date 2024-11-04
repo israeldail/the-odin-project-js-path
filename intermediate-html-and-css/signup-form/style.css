@@ -81,6 +81,47 @@ body {
 
 .form > fieldset {
     margin: 5px;
-    height: 100px;
-    /* border: none; */
+    height: 150px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-container > input {
+    margin-top: 1rem;
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.input-container > input:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+.form-footer {
+    position: absolute;
+    bottom: 5rem;
+}
+
+.form-footer > button {
+    height: 3rem;
+    font-size: 24px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+}
+
+.form-footer > button:hover {
+    cursor: pointer;
 }
