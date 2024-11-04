@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
+    border-radius: 15px;
 }
 
 .logo-div {
